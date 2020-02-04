@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BOOT_ANIMATION="https://github.com/RattlesnakeOS/example_patch_shellscript/raw/10.0/bootanimation.zip"
+BOOT_ANIMATION="https://github.com/BinoopV-Contus/kalypso-bootanimation/raw/10.0/bootanimation.zip"
 mkdir -p $BUILD_DIR/branding
 echo "Downloading boot animation $BOOT_ANIMATION"
 wget -O $BUILD_DIR/branding/bootanimation.zip $BOOT_ANIMATION
